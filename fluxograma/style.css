@@ -1,0 +1,43 @@
+body{
+
+    background-color: indigo;
+    color: rgb(0, 0, 0);
+    font-family: "Playpen Sans", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+}
+
+button{
+
+    background-color: rgba(16, 2, 68, 0.822);
+    color:rgba(255, 255, 255, 0.904);
+    font-family: "Playpen Sans", cursive;
+
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display:block ;
+
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+
+
+}
+
+img {
+    display: block; /* Faz com que a imagem seja tratada como um elemento em bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 30%; /* Define que a imagem terá no máximo 70% da largura disponível */
+    padding: 30px; /* Adiciona 30px de espaço ao redor da imagem */
+}
+
